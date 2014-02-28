@@ -35,7 +35,7 @@ public class OwnerCell implements SmartCell {
             
             if( abo.getEleveur() != null)
             {
-               String answer = "My owner is " + abo.getEleveur() + ".";
+               String answer = "My owner is @" + abo.getEleveur() + ".";
                return answer;
             }
             else {

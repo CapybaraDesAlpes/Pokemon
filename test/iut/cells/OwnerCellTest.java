@@ -21,7 +21,7 @@ public class OwnerCellTest {
     @Test
     public void testASkOwner() throws CloneNotSupportedException {
         pokeBot = new Abo("CaptainObvious");
-        assertEquals("My owner is CaptainObvious.", pokeBot.ask(new Tweet("Do you have an owner ?")));
+        assertEquals("My owner is @CaptainObvious.", pokeBot.ask(new Tweet("Do you have an owner ?")));
 
     }
     
